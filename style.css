@@ -141,7 +141,8 @@ hr {
 .nav-bar-btn:focus {
     outline: none;
 }
-.nav-bar-responsive-icon{
+
+.nav-bar-responsive-icon {
     font-size: 30px;
     display: none;
     margin-right: 10px;
@@ -238,38 +239,46 @@ hr {
 }
 
 
-@media (max-width:900px){
-    .nav-bar-container{
+@media (max-width:900px) {
+    .nav-bar-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    .nav-bar-second-part{
+
+    .nav-bar-second-part {
         display: none;
     }
-    .nav-bar-third-part{
+
+    .nav-bar-third-part {
         width: 50%;
     }
-    .nav-bar-responsive-icon{
+
+    .nav-bar-responsive-icon {
         display: block;
         cursor: pointer;
     }
-    .welcome-text-container{
+
+    .welcome-text-container {
         margin: 0px;
         width: max-content;
     }
-    .welcome-text-hd{
+
+    .welcome-text-hd {
         text-align: center;
         font-size: 45px;
     }
-    .welcome-text-para{
+
+    .welcome-text-para {
         text-align: center;
     }
-    .welcome-text-email-input{
+
+    .welcome-text-email-input {
         width: 80vw;
         margin-left: 10px;
     }
-    .welcome-text-input-btn{
+
+    .welcome-text-input-btn {
         right: 16vw;
     }
 }
